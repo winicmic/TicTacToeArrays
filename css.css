@@ -1,0 +1,24 @@
+.content{
+    text-align: center;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-board{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    flex-basis: 33%;
+    background: steelblue;
+    border: 1px blanchedalmond dotted;
+    font-size: 50px;
+}
